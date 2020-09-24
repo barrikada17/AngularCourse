@@ -34,28 +34,7 @@ let doLog = (message) => console.log(message);
 
 //Interfaces & Classes & Objects & Constructors
 
-class Point {
-
-    //Create contructor with optional attibutes
-    constructor(private _x?: number, private y?: number) {
-    }
-
-    public draw() {
-        console.log('X: ' + this._x + ', Y: ' + this.y)
-    }
-    get x(){
-        return this._x;
-    }
-    set x(value){
-        if (value < 0)
-            throw new Error('value cannot be less than 0.');
-        
-        this._x = value;
-    }
-}
+import {Point} from './point'
 
 let point = new Point(1, 2);
-let x = point.x;
-point.x = 10;
 point.draw();
-

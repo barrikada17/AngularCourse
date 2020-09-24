@@ -1,3 +1,4 @@
+"use strict";
 //Types
 /*
 let  a : number;
@@ -14,6 +15,7 @@ const ColorBlue =2;
 enum Color {Red = 0, Green = 1, Blue = 2, Purple = 3};
 let backgoundColor = Color.Red;
 */
+exports.__esModule = true;
 //Types Assertions
 /*
 let message = 'abc';
@@ -29,19 +31,7 @@ let log = function(message){
 
 let doLog = (message) => console.log(message);
 */
-//Interfaces & Classes & Objects
-var Point = /** @class */ (function () {
-    function Point() {
-    }
-    Point.prototype.draw = function () {
-        console.log('X: ' + this.x + ', Y: ' + this.y);
-    };
-    Point.prototype.getDistance = function (another) {
-        //...
-    };
-    return Point;
-}());
-var point = new Point();
-point.x = 1;
-point.y = 2;
+//Interfaces & Classes & Objects & Constructors
+var point_1 = require("./point");
+var point = new point_1.Point(1, 2);
 point.draw();
