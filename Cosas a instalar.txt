@@ -1,0 +1,4 @@
+Pluging del VCode -> "Auto import"
+
+Habilitar Scripts:
+https://www.youtube.com/watch?v=zUszm-f6Xq4&ab_channel=solvetic.com

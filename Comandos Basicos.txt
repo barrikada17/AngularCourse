@@ -1,0 +1,5 @@
+ng serve -> Ejecutar app
+
+ng g c nombreComponente ->Crear nuevo componente 
+
+ng g s email -> Crear nuevo servicio
