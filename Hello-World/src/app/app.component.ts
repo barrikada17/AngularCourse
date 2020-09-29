@@ -10,12 +10,14 @@ import { FavoriteChangedEventArgs, FavoriteComponent } from './favorite/favorite
 
 
 export class AppComponent {
-  post = {
-    title: 'Angular App',
-    isFavorite: true
-  }
+courses = [1,2];
 
-  onFavoriteChanged(eventArgs: FavoriteChangedEventArgs){
-    console.log("Favourite Change: ", eventArgs);
-  }
+  // post = {
+  //   title: 'Angular App',
+  //   isFavorite: true
+  // }
+
+  // onFavoriteChanged(eventArgs: FavoriteChangedEventArgs){
+  //   console.log("Favourite Change: ", eventArgs);
+  // }
 }

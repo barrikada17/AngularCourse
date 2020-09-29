@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.components';
 import { CourseComponent } from './course/course.component';
 import { PanelComponent } from './panel/panel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -23,7 +24,8 @@ import { PanelComponent } from './panel/panel.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NgbModule.forRoot()
   ],
   providers: [
     CoursesService

@@ -1,7 +1,1 @@
-Pluging del VCode -> "Auto import"
-Pluging del VCode -> "Auto close TagG"
-
-Habilitar Scripts:
-https://www.youtube.com/watch?v=zUszm-f6Xq4&ab_channel=solvetic.com
-
-npm install bootstrap --save
+https://www.youtube.com/watch?v=TwlgOS8xcJ0

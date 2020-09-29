@@ -1,5 +1,11 @@
+ng new NombreDelProyecto -> Crear ProyectoNuevo
+
 ng serve -> Ejecutar app
 
 ng g c nombreComponente ->Crear nuevo componente 
 
 ng g s email -> Crear nuevo servicio
+
+ng g d input-format -> Crear nueva directiva
+
+ng add @ng-bootstrap/ng-bootstrap --project myProject -> Instalar Bootstrap de manera correcta
